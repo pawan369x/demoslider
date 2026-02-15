@@ -1,12 +1,11 @@
-import React from 'react';
 import HeroSlider from './components/HeroSlider';
 import './index.css';
-import ExactVideoSlider from './components/HeroSlider';
+import './App.css';
 
 function App() {
   return (
     <>
-      < ExactVideoSlider />
+      <HeroSlider />
     </>
   );
 }
